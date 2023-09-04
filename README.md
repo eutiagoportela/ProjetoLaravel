@@ -1,5 +1,6 @@
 
-Para utilizar a aplicação no VS CODE:
+
+Para utilizar a aplicação no VS CODE:<br>
 1- Execute o <b>comando</b> composer install para instalar todas as dependências do projeto Laravel.
 
 2-Crie um arquivo <b>.env</b> a partir do arquivo .env.example e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.
@@ -10,6 +11,9 @@ Execute o comando <b>php artisan migrate</b> para executar as migrations e criar
 
 Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.
 
+Este é um projeto full Stack desenvolvido em Laravel com Blade que permita o gerenciamento dos cadastros dos médicos e suas
+respectivas especialidades, cada médico pode ter várias especialidades e cada especialidade pode ter
+vários médicos e um relatório para exibir os medicos e suas especialidades.
 
 Cadastro de Especialidades<br>
 ![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/5b67633e-c856-47cf-a302-feab623fe933)<br>
