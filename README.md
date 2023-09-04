@@ -1,19 +1,19 @@
 
 
-Para utilizar a aplicação no VS CODE:<br>
-1- Execute o <b>comando</b> composer install para instalar todas as dependências do projeto Laravel.
+Para utilizar a aplicação no VS CODE:<br><br>
+1 - Execute o <b>comando</b> composer install para instalar todas as dependências do projeto Laravel.<br>
 
-2-Crie um arquivo <b>.env</b> a partir do arquivo .env.example e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.
+2 - Crie um arquivo <b>.env</b> a partir do arquivo .env.example e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.<br>
 
-3-Execute o comando <b>php artisan key:generate</b> para gerar uma chave de aplicativo única para o seu projeto Laravel.
+3 - Execute o comando <b>php artisan key:generate</b> para gerar uma chave de aplicativo única para o seu projeto Laravel.<br>
 
-Execute o comando <b>php artisan migrate</b> para executar as migrations e criar as tabelas do banco de dados, se houver.
+4 - Execute o comando <b>php artisan migrate</b> para executar as migrations e criar as tabelas do banco de dados, se houver.<br><br>
 
-Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.
+5 - Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.<br>
 
 Este é um projeto full Stack desenvolvido em Laravel com Blade que permita o gerenciamento dos cadastros dos médicos e suas
 respectivas especialidades, cada médico pode ter várias especialidades e cada especialidade pode ter
-vários médicos e um relatório para exibir os medicos e suas especialidades.
+vários médicos e um relatório para exibir os medicos e suas especialidades.<br><br>
 
 Cadastro de Especialidades<br>
 ![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/5b67633e-c856-47cf-a302-feab623fe933)<br>
