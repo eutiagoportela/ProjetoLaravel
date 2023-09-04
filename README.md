@@ -1,64 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Para utilizar a aplicação no VS CODE:
+1- Execute o <b>comando</b> composer install para instalar todas as dependências do projeto Laravel.
 
-## About Laravel
+2-Crie um arquivo <b>.env</b> a partir do arquivo .env.example e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+3-Execute o comando <b>php artisan key:generate</b> para gerar uma chave de aplicativo única para o seu projeto Laravel.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Execute o comando <b>php artisan migrate</b> para executar as migrations e criar as tabelas do banco de dados, se houver.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Cadastro de Especialidades<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/5b67633e-c856-47cf-a302-feab623fe933)<br>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Lista de Especialidades<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/f332b4b3-e24c-459d-a602-9db35f265049)<br>
 
-## Laravel Sponsors
+Alterar Especialidade<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/cc39d0f4-162f-4bd0-9b78-3f1fa8fbb3b6)<br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Excluir Especialidade<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/39e0d06e-ae24-4fda-b6c2-09951b3875d8)<br>
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Cadastro de Médicos<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/13c6aa14-7657-4a4a-a83e-ccf49e47fe08)<br>
 
-## Contributing
+Lista de Médicos<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/82d9e6db-e902-454b-a638-6b935ef19a2a)<br>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Alterar Médicos<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/80ea527f-4428-47db-942a-8b292fcd61dd)<br>
 
-## Code of Conduct
+Excluir Médicos<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/7b7c2c15-294e-4d08-a402-4f633f801536)<br>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Relatório de Médicos e suas especialidades<br>
+![image](https://github.com/eutiagoportela/ProjetoLaravel/assets/30733976/c9d99200-6d6f-41f9-96b7-47f0cf196b50)
