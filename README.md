@@ -7,9 +7,9 @@ Para utilizar a aplicação no VS CODE:<br><br>
 
 3 - Execute o comando <b>php artisan key:generate</b> para gerar uma chave de aplicativo única para o seu projeto Laravel.<br>
 
-4 - Execute o comando <b>php artisan migrate</b> para executar as migrations e criar as tabelas do banco de dados, se houver.<br><br>
+4 - Execute o comando <b>php artisan migrate</b> para executar as migrations e criar as tabelas do banco de dados, se houver.<br>
 
-5 - Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.<br>
+5 - Finalmente, você pode iniciar o servidor de desenvolvimento do Laravel executando o comando <b>php artisan serve</b>. O servidor será iniciado e você poderá acessar o projeto em seu navegador. Ou utilizar o Laragon.<br><br><br>
 
 Este é um projeto full Stack desenvolvido em Laravel com Blade que permita o gerenciamento dos cadastros dos médicos e suas
 respectivas especialidades, cada médico pode ter várias especialidades e cada especialidade pode ter
