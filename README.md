@@ -3,7 +3,8 @@
 Para utilizar a aplicação no VS CODE:<br><br>
 1 - Execute o <b>comando</b> composer install para instalar todas as dependências do projeto Laravel.<br>
 
-2 - Crie um arquivo <b>.env</b> a partir do arquivo .env.example e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.<br>
+2 - Crie um arquivo <b>.env</b> colando o arquivo do seguinte codigo ou copiando ele na raiz do projeto e configure as variáveis de ambiente necessárias, como a conexão com o banco de dados.<br>
+https://uploadnow.io/f/GpnTxjy
 
 3 - Execute o comando <b>php artisan key:generate</b> para gerar uma chave de aplicativo única para o seu projeto Laravel.<br>
 
